@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(../pics/background1.jpg);
+    height: 480px;
+    width: 344px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction:column;
+}
+
+#board{
+    background: linear-gradient(green,yellow);
+    border: 1px solid black;
+    height: 300px;
+    width: 340px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);;
+    grid-template-rows: repeat(18,1fr);
+
+}
+
+.head{
+    background-image:url(../pics/head.jpg);
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: 30px;
+    border-radius: 50%;
+}
+
+.snake{
+     background: linear-gradient(pink,red,yellow);
+     border: 1px solid black;
+     border-radius: 10%;
+     transform-style: flat;
+}
+
+
+.food{
+    background-image:url(../pics/meat.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 30%;
+
+
+}
+
+
+#highscorebox{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: larger;
+}
+
+#scorebox{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: larger;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+.controller{
+
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.up{
+    display: flex;
+justify-content: center;
+margin: -50%;
+
+}
+.down{
+    display: flex;
+justify-content: center;
+margin-top: 14px;
+}
+.left{
+    margin: -16%;
+  margin-left: -17px;
+  margin-top: 80%;
+
+}
+.right{
+    display: flex;
+justify-content: end;
+margin: -85%;
+  margin-right: -85%;
+margin-right: -16px;
+
+}
+
+button{
+    height: 20px;
+    width: 20px;
+    border: 1px;
+    border-radius: 50%;
+    color: white;
+    background-color: white;
+}
+
+#up button{
+    background-image:url(../pics/up.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#down button{
+    background-image:url(../pics/down.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#left button{
+    background-image:url(../pics/left3.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#right button{
+    background-image:url(../pics/right.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
