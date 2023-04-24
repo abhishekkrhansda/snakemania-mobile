@@ -5,8 +5,8 @@
 
 .container{
     background: url(../pics/background1.jpg);
-    height: 480px;
-    width: 344px;
+    height: 760px;
+    width: 420px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -18,8 +18,8 @@
 #board{
     background: linear-gradient(green,yellow);
     border: 1px solid black;
-    height: 300px;
-    width: 340px;
+    height: 600px;
+    width: 400px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(18,1fr);;
